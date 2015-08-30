@@ -1,5 +1,6 @@
 <?
 
+
 /** 
  * @file
  * template.php for Gallery Base theme.
