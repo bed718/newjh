@@ -1675,34 +1675,45 @@ div.error, table tr.error {
 .is-thumb #controls, .is-thumb .captions {
   display: none !important; }
 
+/* line 1261, ../sass/style.scss */
+#messages {
+  position: relative;
+  z-index: 80;
+  max-width: 800px;
+  margin: 120px auto; }
+
+/* line 1268, ../sass/style.scss */
+.page-node.node-type-intro-gallery #messages {
+  margin: auto; }
+
 /* FRONT
 -------------------------------------------------------------- */
-/* line 1267, ../sass/style.scss */
+/* line 1278, ../sass/style.scss */
 .page-node.node-type-intro-gallery #header-container {
   top: 65vh;
   padding-top: 0;
   margin-top: -25px; }
 @media (max-width: 900px) {
-  /* line 1267, ../sass/style.scss */
+  /* line 1278, ../sass/style.scss */
   .page-node.node-type-intro-gallery #header-container {
     margin-top: 0;
     padding-top: 10px; } }
-/* line 1278, ../sass/style.scss */
+/* line 1289, ../sass/style.scss */
 .page-node.node-type-intro-gallery h1 {
   display: none; }
-/* line 1282, ../sass/style.scss */
+/* line 1293, ../sass/style.scss */
 .page-node.node-type-intro-gallery #main-container {
   min-height: 100vh; }
-/* line 1286, ../sass/style.scss */
+/* line 1297, ../sass/style.scss */
 .page-node.node-type-intro-gallery #footer {
   position: relative;
   z-index: 500; }
 
-/* line 1298, ../sass/style.scss */
+/* line 1310, ../sass/style.scss */
 .krumo-root {
   z-index: 1000; }
 
-/* line 1304, ../sass/style.scss */
+/* line 1316, ../sass/style.scss */
 .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -1710,6 +1721,6 @@ div.error, table tr.error {
   *zoom: 1;
   *display: inline; }
 
-/* line 1309, ../sass/style.scss */
+/* line 1321, ../sass/style.scss */
 .krumo-name {
   color: #000 !important; }

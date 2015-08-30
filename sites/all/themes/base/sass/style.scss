@@ -1258,6 +1258,17 @@ div.error, table tr.error{background-color: #d9acac; border: none;}
 }
 
 
+#messages{
+  position: relative;
+  z-index: 80;
+  max-width: 800px;
+  margin: 120px auto;
+}
+
+.page-node.node-type-intro-gallery #messages{
+  margin: auto;
+}
+
 
 
 /* FRONT
@@ -1291,6 +1302,7 @@ div.error, table tr.error{background-color: #d9acac; border: none;}
 
 
 }
+
 
 
 
