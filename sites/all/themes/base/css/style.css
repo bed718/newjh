@@ -1686,34 +1686,39 @@ div.error, table tr.error {
 .page-node.node-type-intro-gallery #messages {
   margin: auto; }
 
+/* line 1272, ../sass/style.scss */
+#simplenews-confirm-add-form {
+  max-width: 800px;
+  margin: auto; }
+
 /* FRONT
 -------------------------------------------------------------- */
-/* line 1278, ../sass/style.scss */
+/* line 1283, ../sass/style.scss */
 .page-node.node-type-intro-gallery #header-container {
   top: 65vh;
   padding-top: 0;
   margin-top: -25px; }
 @media (max-width: 900px) {
-  /* line 1278, ../sass/style.scss */
+  /* line 1283, ../sass/style.scss */
   .page-node.node-type-intro-gallery #header-container {
     margin-top: 0;
     padding-top: 10px; } }
-/* line 1289, ../sass/style.scss */
+/* line 1294, ../sass/style.scss */
 .page-node.node-type-intro-gallery h1 {
   display: none; }
-/* line 1293, ../sass/style.scss */
+/* line 1298, ../sass/style.scss */
 .page-node.node-type-intro-gallery #main-container {
   min-height: 100vh; }
-/* line 1297, ../sass/style.scss */
+/* line 1302, ../sass/style.scss */
 .page-node.node-type-intro-gallery #footer {
   position: relative;
   z-index: 500; }
 
-/* line 1310, ../sass/style.scss */
+/* line 1315, ../sass/style.scss */
 .krumo-root {
   z-index: 1000; }
 
-/* line 1316, ../sass/style.scss */
+/* line 1321, ../sass/style.scss */
 .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -1721,6 +1726,6 @@ div.error, table tr.error {
   *zoom: 1;
   *display: inline; }
 
-/* line 1321, ../sass/style.scss */
+/* line 1326, ../sass/style.scss */
 .krumo-name {
   color: #000 !important; }
